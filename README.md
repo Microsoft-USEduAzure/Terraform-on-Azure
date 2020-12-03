@@ -1,6 +1,6 @@
 # Getting started with Terraform
 
-### Check out the official **Get Started - Azure** [here](https://learn.hashicorp.com/collections/terraform/azure-get-started)
+### Check out the official **Get Started - Azure** tutorial [here](https://learn.hashicorp.com/collections/terraform/azure-get-started)
 
 ## Terraform basics
 
@@ -101,7 +101,8 @@ Last but not least, I'd recommend you use [VSCode](https://code.visualstudio.com
 ## Let's go deploy to Azure using Terraform!
 
 Take a look at the following article to understand how Terraform can authenticate to Azure
-https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs#authenticating-to-azure
+
+- https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs#authenticating-to-azure
 
 We will simply use [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) locally or in [Azure Cloud Shell](https://shell.azure.com)
 
