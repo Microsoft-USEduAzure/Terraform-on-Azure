@@ -211,7 +211,7 @@ https://learn.hashicorp.com/tutorials/terraform/azure-remote?in=terraform/azure-
 
 	- Choose a workflow - let's click "CLI driven workflow" here
 	
-		![b15d3fd926b3fca2084bd7df5ae5c7bb.png](:/cc8e0f728a954486bab9e132a202b85c)
+		![b15d3fd926b3fca2084bd7df5ae5c7bb.png](images/cc8e0f728a954486bab9e132a202b85c.png)
 	
 5. In order for Terraform Cloud to connect to your Azure subscription, you'll need to create a new service principal and add the object's values as variables in your workspace
 6. Create a service principal using Azure CLI
@@ -227,7 +227,7 @@ https://learn.hashicorp.com/tutorials/terraform/azure-remote?in=terraform/azure-
 	- `ARM_TENANT_ID`
 	- `ARM_SUBSCRIPTION_ID`
 
-		![0b50e112c6c5725b3a32900e1350b8e3.png](:/94bd514b59d94a9381c249344e40f576)
+		![0b50e112c6c5725b3a32900e1350b8e3.png](images/94bd514b59d94a9381c249344e40f576.png)
 
 8. Create a new file in your working directory called `backend.tf` and add in the following code
 
@@ -249,7 +249,7 @@ https://learn.hashicorp.com/tutorials/terraform/azure-remote?in=terraform/azure-
 13. Run `terraform apply` and notice it is being run in Terraform Cloud 
 14. In Terraform Cloud, navigate to your workspace, and click on the Runs tab to view results
 
-	![98c95fc829be2dc1838bc92c63d6ef81.png](:/bbb6d7097fec429ba0dbdbf5405d6847)
+	![98c95fc829be2dc1838bc92c63d6ef81.png](images/bbb6d7097fec429ba0dbdbf5405d6847.png)
 
 ## GitOps
 
@@ -261,7 +261,7 @@ https://learn.hashicorp.com/tutorials/terraform/azure-remote?in=terraform/azure-
 1. In Settings, click on Secret and add a new Repository secret named `TF_API_TOKEN`
 1. Paste in the token you generated in Terraform Cloud
 
-	![1f7b7d6630747ab3db80658e7823f4e5.png](:/ed3b401f80de4f6885ebaf8f3812f046)
+	![1f7b7d6630747ab3db80658e7823f4e5.png](images/ed3b401f80de4f6885ebaf8f3812f046.png)
 	
 1. Navigate to Actions and add in the [setup-terraform](https://github.com/marketplace/actions/hashicorp-setup-terraform) action 
 1. Make a change to your terraform source code, do a push, and you'll notice the GitHub Action queueing a new plan and apply in Terraform Cloud
