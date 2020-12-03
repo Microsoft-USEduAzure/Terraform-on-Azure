@@ -1,5 +1,7 @@
 # Getting started with Terraform
 
+### Check out the official **Get Started - Azure** [here](https://learn.hashicorp.com/collections/terraform/azure-get-started)
+
 ## Terraform basics
 
 ### Download and Install
