@@ -1,6 +1,6 @@
 # Getting started with Terraform
 
-### Check out the official **Get Started - Azure** tutorial [here](https://learn.hashicorp.com/collections/terraform/azure-get-started)
+### Check out the official **"Get Started - Azure"** tutorial [here](https://learn.hashicorp.com/collections/terraform/azure-get-started)
 
 ## Terraform basics
 
@@ -205,7 +205,7 @@ https://learn.hashicorp.com/tutorials/terraform/azure-remote?in=terraform/azure-
 
 ## Terraform cloud
 
-### Check out the official **Get Started - Terraform Cloud** tutorial [here](https://learn.hashicorp.com/collections/terraform/cloud-get-started)
+### Check out the official **"Get Started - Terraform Cloud"** tutorial [here](https://learn.hashicorp.com/collections/terraform/cloud-get-started)
 
 1. If you don't already have an account on [Terraform Cloud](https://app.terraform.io/), create one
 2. Login to Terraform Cloud
@@ -256,7 +256,7 @@ https://learn.hashicorp.com/tutorials/terraform/azure-remote?in=terraform/azure-
 
 ## GitOps
 
-### Check out the official **Automate Terraform with GitHub Actions** tutorial [here](https://learn.hashicorp.com/tutorials/terraform/github-actions)
+### Check out the official **"Automate Terraform with GitHub Actions"** tutorial [here](https://learn.hashicorp.com/tutorials/terraform/github-actions)
 
 1. In GitHub, create a new repository, add your .tf files, commit, and push
 1. Browse to Terraform Cloud settings and [create a new API token](https://app.terraform.io/app/settings/tokens) for github-actions. 
