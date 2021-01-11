@@ -1,4 +1,4 @@
-# Getting started with Terraform for Azure
+# Getting started with Terraform for your Azure deployments
 
 ### Check out the official **"Get Started - Azure"** tutorial [here](https://learn.hashicorp.com/collections/terraform/azure-get-started)
 
